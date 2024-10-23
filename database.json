@@ -1,0 +1,136 @@
+{
+  "subjects": [
+    {
+      "id": "PRF192",
+      "name": "Programming Fundamental"
+    },
+    {
+      "id": "PRO192",
+      "name": "Programming Object Oriented"
+    },
+    {
+      "id": "DBI202",
+      "name": "Database Introduction"
+    },
+    {
+      "id": "OS102",
+      "name": "Operating System"
+    },
+    {
+      "id": "JAVA204",
+      "name": "Programming Java Web"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "studentId": "HE1710001",
+      "name": "Phạm Hoàng Minh",
+      "age": 20,
+      "street": "190 Nguyễn Tuân, Thanh Xuân",
+      "city": "Hà Nội",
+      "isRegularStudent": true,
+      "subjects": [
+        "PRF192",
+        "PRO192"
+      ]
+    },
+    {
+      "id": "2",
+      "studentId": "HE1710002",
+      "name": "Ngô Thị Hồng",
+      "age": 19,
+      "street": "Liên Minh, Vụ Bản",
+      "city": "Nam Định",
+      "isRegularStudent": false,
+      "subjects": [
+        "DBI202"
+      ]
+    },
+    {
+      "id": "3",
+      "studentId": "HE1710003",
+      "name": "Trần Hải Nam",
+      "age": 21,
+      "street": "56 Trung Hòa, Cầu Giấy",
+      "city": "Hà Nội",
+      "isRegularStudent": true,
+      "subjects": [
+        "OS102",
+        "JAVA204"
+      ]
+    },
+    {
+      "id": "4",
+      "studentId": "HE1710004",
+      "name": "Trần Thu Hương",
+      "age": 20,
+      "street": "56 Quang Trung, Phủ Lý",
+      "city": "Hà Nam",
+      "isRegularStudent": false,
+      "subjects": [
+        "PRF192"
+      ]
+    },
+    {
+      "id": "5",
+      "studentId": "HE1710005",
+      "name": "Ngô Thị Han",
+      "age": 19,
+      "street": "Liên Minh, Vụ Bản",
+      "city": "Nam Định",
+      "isRegularStudent": true,
+      "subjects": [
+        "DBI202"
+      ]
+    }
+  ],
+  "grades": [
+    {
+      "studentId": "HE1710001",
+      "subjectId": "PRF192",
+      "grade": 7.5,
+      "explanation": "PRF192 course",
+      "id": "0b3b"
+    },
+    {
+      "studentId": "HE1710001",
+      "subjectId": "PRO192",
+      "grade": 7,
+      "explanation": "PRO192 course",
+      "id": "6820"
+    },
+    {
+      "studentId": "HE1710001",
+      "subjectId": "DBI202",
+      "grade": 7.5,
+      "explanation": "DBI202 course",
+      "id": "b4bc"
+    },
+    {
+      "studentId": "HE1710002",
+      "subjectId": "DBI202",
+      "grade": 8,
+      "explanation": "DBI202 course",
+      "id": "8605"
+    },
+    {
+      "id": "3f12",
+      "studentId": "HE1710001",
+      "grade": "10",
+      "explanation": "FER202"
+    },
+    {
+      "id": "4a7c",
+      "studentId": "HE1710005",
+      "grade": "9.9",
+      "explanation": "DBI"
+    },
+    {
+      "id": "7794",
+      "studentId": "HE1710001",
+      "grade": "8",
+      "explanation": "FER201c"
+    }
+  ]
+}
